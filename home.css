@@ -1,0 +1,139 @@
+html, body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #eeefe9;
+}
+h1, h2, h3, h4{
+    font-family: 'Abel', sans-serif;   
+}
+b, strong{
+    font-weight: 400;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+hr{
+    border-top:1px solid gray;
+}
+.carousel-caption{
+    z-index: 10;
+}
+.carousel-inner > .item > img{
+	position: absolute;
+    top: 50px;
+    bottom: 20px;
+    min-width: 100%;
+    height: auto;
+}
+.carousel-inner > .item{
+	height: 500px;
+    background-color: lightgray;
+}
+
+.padded{
+    padding: 30px 0px;
+     
+}
+.row img{
+    height: 200px;
+}
+.row1 img{
+    height: 200px;
+}
+
+.info{
+    background-color: gray;
+    padding: 80px 0;
+}
+.info small{
+    color: white;
+}
+.info a{
+    color:white;
+}
+.info a:hover{
+    color:gray;
+}
+.info img{
+    height: 75px;
+}
+@media(min-width: 768px){
+	.carousel-inner>.item{
+		height: 700px;
+	}
+}
+h4{
+    text-align: center;
+}
+.logo img{
+    height: 40px;
+}
+.ftr{
+   background-color: black;
+}
+.ftr img{
+    height:150px;
+    padding-top: 20px;
+}
+.ftr > h3 >a{
+    text-align: center;
+    color:white;
+}
+.ftr p{
+    color: white;
+}
+
+.tpad{
+    padding-top:  60px;
+}
+.sidebar img{
+    height: 150px;
+}
